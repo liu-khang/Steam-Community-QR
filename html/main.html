@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Steam Community Profile QR Code Generator</title>
+		<style>
+			body, form{
+				margin: 0 auto;
+				max-width:800px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#artist{
+				flex-grow:100;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body style="background-color: darkslategray;">
+		<form action = "search" method = "get">
+			<img src ="../images/homepage.PNG" alt="SteamQR" />
+			<fieldset>
+				<label for="steamID">Please enter your Steam ID:</label>
+				<input id="steamID" name="steamID" type="text" />
+				<input type="submit" value="Search" />
+			</fieldset>
+		</form>
+	</body>
+</html>
