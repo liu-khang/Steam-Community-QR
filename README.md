@@ -11,4 +11,4 @@ Setup:
 4) In a web browser, type in localhost:3000 to access the locally hosted website.
 
 Usage:
-1) Once setup is complete, just enter any Steam ID (profile must be public) to generate the QR code.
+1) Once setup is complete, just enter any Steam ID (profile must be public) in the input field and click search to generate the QR code.
